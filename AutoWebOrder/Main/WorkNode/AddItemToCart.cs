@@ -37,7 +37,6 @@ namespace AutoWebOrder.Main.WorkNode
 
             try
             {
-
                 // 검색창 깨끗이 지우고
                 if (arg.seleMgr.ExistElement(By.XPath("/html/body/div[2]/div/header/div[2]/div/div/div/div/div/div/form/div[1]/button[1]"))) {
                     driver.FindElementByXPath("/html/body/div[2]/div/header/div[2]/div/div/div/div/div/div/form/div[1]/button[1]").Click();
